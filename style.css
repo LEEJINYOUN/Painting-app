@@ -1,0 +1,123 @@
+button {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cae0d8;
+  padding-top: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 10px;
+  height: 600px;
+}
+
+#color {
+  display: none;
+}
+
+canvas {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+}
+
+.colorOption + .colorOption {
+  margin-top: 10px;
+}
+
+.colorOption {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  height: 600px;
+}
+
+.right > div + div {
+  margin-top: 20px;
+}
+
+.lineSizeBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#lineWidth {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.btnBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.btnBox > button + button {
+  margin-left: 10px;
+}
+
+.btnBox > button {
+  font-size: 15px;
+}
+
+.fontOptionsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.fontOptionsBox > div + div {
+  margin-top: 5px;
+}
+
+.textInputBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#fontSize {
+  width: 40px;
+  font-size: 13px;
+}
+
+#text {
+  margin-left: 5px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.textFillBox {
+  display: flex;
+  align-items: center;
+}
+
+#textFill {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.imgSaveBox {
+  display: flex;
+  flex-direction: column;
+}
+
+#file {
+  cursor: pointer;
+}
+
+.imgSaveBox > div + div {
+  margin-top: 10px;
+}
