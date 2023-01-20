@@ -16,6 +16,8 @@
 
 ![캡처](/imgs/%EB%B0%B0%EA%B2%BD%20%EC%B1%84%EC%9A%B0%EA%B8%B0%20%EB%B3%80%EA%B2%BD_readme.gif)
 
+---
+
 ## (3) 텍스트 넣기
 
 ![캡처](/imgs/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EB%84%A3%EA%B8%B0_readme.gif)
